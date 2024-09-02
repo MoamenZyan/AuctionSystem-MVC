@@ -1,5 +1,5 @@
-## Auction System MVC Project
-# This project is an Auction system built using ASP.NET Core v8, implementing a 4-layer architecture to ensure separation of concerns and enhance maintainability and scalability. The architecture consists of the following layers:
+# Auction System MVC Project
+### This project is an Auction system built using ASP.NET Core v8, implementing a 4-layer architecture to ensure separation of concerns and enhance maintainability and scalability. The architecture consists of the following layers:
 
 # Architecture
 - Domain Layer: Contains the core business logic and domain entities of the auction system. This layer is responsible for representing the real-world auction processes and ensuring all business rules are enforced.
