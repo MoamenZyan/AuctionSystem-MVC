@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AuctionSystemApp.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AuctionSystemApp.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\AuctionsPhotos\\56cb197c-2548-400e-8974-78b1b8c5741a.jpg",
+      "PackagePath": "staticwebassets\\AuctionsPhotos\\56cb197c-2548-400e-8974-78b1b8c5741a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\AuctionsPhotos\\7e121164-3315-4c3f-8657-0d54caa6cc5b.jpg",
+      "PackagePath": "staticwebassets\\AuctionsPhotos\\7e121164-3315-4c3f-8657-0d54caa6cc5b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\AuctionsPhotos\\8160594f-a768-4e0c-8893-b0c529c971c6.jpg",
+      "PackagePath": "staticwebassets\\AuctionsPhotos\\8160594f-a768-4e0c-8893-b0c529c971c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\AuctionsPhotos\\cc8f4a04-bdaf-47f9-bd7c-a090558a5c29.jpg",
+      "PackagePath": "staticwebassets\\AuctionsPhotos\\cc8f4a04-bdaf-47f9-bd7c-a090558a5c29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\AuctionsPhotos\\ef03e65e-6f02-4abb-8c2f-38baa593c58f.png",
+      "PackagePath": "staticwebassets\\AuctionsPhotos\\ef03e65e-6f02-4abb-8c2f-38baa593c58f.png"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\UsersPhotos\\00cad672-edc7-4cf6-b331-278abb08b87e.jpg",
+      "PackagePath": "staticwebassets\\UsersPhotos\\00cad672-edc7-4cf6-b331-278abb08b87e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\UsersPhotos\\0ca8184c-3bd4-4b4c-b127-38fc2e0cc1a1.jpg",
+      "PackagePath": "staticwebassets\\UsersPhotos\\0ca8184c-3bd4-4b4c-b127-38fc2e0cc1a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\css\\auction_creation.css",
+      "PackagePath": "staticwebassets\\css\\auction_creation.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\css\\auction_page.css",
+      "PackagePath": "staticwebassets\\css\\auction_page.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\auction_icon.svg",
+      "PackagePath": "staticwebassets\\icons\\auction_icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\auction_red.svg",
+      "PackagePath": "staticwebassets\\icons\\auction_red.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\close.svg",
+      "PackagePath": "staticwebassets\\icons\\close.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\comment.svg",
+      "PackagePath": "staticwebassets\\icons\\comment.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\description.svg",
+      "PackagePath": "staticwebassets\\icons\\description.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\info.svg",
+      "PackagePath": "staticwebassets\\icons\\info.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\live.svg",
+      "PackagePath": "staticwebassets\\icons\\live.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\live_gray.svg",
+      "PackagePath": "staticwebassets\\icons\\live_gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\live_green.svg",
+      "PackagePath": "staticwebassets\\icons\\live_green.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\login.svg",
+      "PackagePath": "staticwebassets\\icons\\login.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\logout.svg",
+      "PackagePath": "staticwebassets\\icons\\logout.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\money.svg",
+      "PackagePath": "staticwebassets\\icons\\money.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\pc.jpg",
+      "PackagePath": "staticwebassets\\icons\\pc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\price.svg",
+      "PackagePath": "staticwebassets\\icons\\price.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\profile.svg",
+      "PackagePath": "staticwebassets\\icons\\profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\icons\\signup.svg",
+      "PackagePath": "staticwebassets\\icons\\signup.svg"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Overd\\source\\repos\\AuctionSystemApp\\AuctionSystemApp.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AuctionSystemApp.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AuctionSystemApp.MVC.props",
+      "PackagePath": "build\\AuctionSystemApp.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AuctionSystemApp.MVC.props",
+      "PackagePath": "buildMultiTargeting\\AuctionSystemApp.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AuctionSystemApp.MVC.props",
+      "PackagePath": "buildTransitive\\AuctionSystemApp.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

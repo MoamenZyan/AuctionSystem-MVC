@@ -1,0 +1,12 @@
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\bin\Debug\net8.0\AuctionSystemApp.Domain.deps.json
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\bin\Debug\net8.0\AuctionSystemApp.Domain.dll
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\bin\Debug\net8.0\AuctionSystemApp.Domain.pdb
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\AuctionSystemApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\AuctionSystemApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\AuctionSystemApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\AuctionSystemApp.Domain.AssemblyInfo.cs
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\AuctionSystemApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\AuctionSystemApp.Domain.dll
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\refint\AuctionSystemApp.Domain.dll
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\AuctionSystemApp.Domain.pdb
+C:\Users\Overd\source\repos\AuctionSystemApp\AuctionSystemApp.Domain\obj\Debug\net8.0\ref\AuctionSystemApp.Domain.dll

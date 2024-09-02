@@ -1,0 +1,132 @@
+﻿@using AuctionSystemApp.Application.DTOs
+@using Humanizer;
+@{
+    var auction = ViewData["Auction"] as AuctionDto;
+    var comments = ViewData["Comments"] as List<CommentDto>;
+}
+
+<div class="auction_page_div">
+    <div class="auction_info_div">
+        <div class="left_div">
+            <img src="@auction.PhotoPath" width="400" height="400" />
+        </div>
+        <div class="right_div">
+            <h2>@auction.Name</h2>
+            <p>@auction.Description</p>
+            <p><strong>Auction Owner:</strong> <span style="text-decoration: underline; cursor: pointer; color: #fe5f60;">@auction.User.Fname @auction.User.Lname</span></p>
+            <div class="live">
+                @if (auction.To >= DateTime.Now)
+                {
+                    <img src="~/icons/live_green.svg" width="40" height="40" title="auction is live" />
+                    <span>@(@auction.To)</span>
+                }
+                else
+                {
+                    <img src="~/icons/live_gray.svg" width="40" height="40" title="auction is ended" />
+                }
+            </div>
+            <p>Joined Users: @auction.JoinedUsers.Count</p>
+            <p>Last Bid: @(auction.JoinedUsers.Count > 0 ? auction.JoinedUsers[0].Bid : "0.00")$</p>
+            <div class="button">
+                @if (auction.To >= DateTime.Now)
+                {
+                    <img src="~/icons/money.svg" width="25" height="25" />
+                    <p onclick="openModal()">Add Bid</p>
+                }
+                else
+                {
+                    <p>Auction has ended!</p>
+                }
+            </div>
+        </div>
+        <div id="bid_modal">
+            <div class="position_relative">
+                <img onclick="closeModal()" src="~/icons/close.svg" width="30" height="30"/>
+                <input id="bid_amount" type="text" placeholder="Enter Bid" />
+                <button onclick="addBid()">Add Bid Amount</button>
+            </div>
+        </div>
+    </div>
+    <div class="auction_comments">
+        <div class="heading">
+            <h2>Comments Section</h2>
+            <img src="~/icons/comment.svg" width="25" height="25" />
+        </div>
+        <div class="comment_section">
+            <div class="left">
+                <h3>@comments.Count Comments</h3>
+            </div>
+            <div class="right">
+                <div class="add_comment">
+                    <textarea id="comment_content" placeholder="Write a comment!" /></textarea>
+                    <button onclick="addComment()">Add Comment</button>
+                </div>
+                <div class="comments">
+                    @if (comments?.Count == 0)
+                    {
+                        <p class="first">Be the first to comment!</p>
+                    }
+                    else
+                    {
+                        foreach(var comment in comments)
+                        {
+                            <div class="comment_box">
+                                <div class="user_info">
+                                    <img src="@comment.UserPhoto" width="50" height="50" />
+                                    <h4>@comment.UserName</h4>
+                                </div>
+                                <p>@comment.CommentContent</p>
+                                <span>@comment.CreatedAt.Humanize()</span>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    function openModal() {
+        document.getElementById('bid_modal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('bid_modal').style.display = 'none';
+    }
+
+    async function addBid() {
+        var bid = document.getElementById('bid_amount').value;
+        var form = new FormData();
+        form.append("Bid", bid);
+        form.append("AuctionId", @auction.Id)
+
+        await fetch("/Auction/AddBidToAuction", {
+            method: "POST",
+            body: new URLSearchParams(form)
+        })
+
+        closeModal();
+    }
+
+    async function addComment() {
+        var commentContent = document.getElementById('comment_content').value;
+        var form = new FormData();
+        form.append("CommentContent", commentContent);
+
+        await fetch('/Comments/@(auction.Id)', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams(form)
+        })
+        .then(res => {
+            if (res.Ok)
+                window.location.reload();
+        })
+    }
+
+</script>

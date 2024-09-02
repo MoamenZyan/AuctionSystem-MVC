@@ -1,0 +1,89 @@
+﻿@using AuctionSystemApp.Application.DTOs
+
+@{
+    var auctions = ViewData["userAuctions"] as List<AuctionDto>;
+    var user = ViewData["user"] as UserDto;
+}
+
+<div class="profile_container">
+    <div class="heading">
+        <h2>Profile Page</h2>
+        <img src="~/icons/profile.svg" width="25" height="25"/>
+    </div>
+    <div class="user_info">
+        <div class="left_div">
+            <img src="@user.PhotoPath" />
+            <h3>@user.Fname @user.Lname</h3>
+        </div>
+        <div class="right_div">
+            <div class="nav_bar">
+                <div id="user_info_item" class="nav_item active_item">
+                    <h4>User Info</h4>
+                </div>
+                <div id="user_auctions_item" class="nav_item">
+                    <h4>User's Auctions</h4>
+                </div>
+                <div class="nav_item">
+                    <h4>User's Won Auctions</h4>
+                </div>
+            </div>
+            <div id="user_info_div">
+                <p><span>First Name:</span> @user.Fname</p>
+                <p><span>Last Name:</span> @user.Lname</p>
+                <p><span>Email:</span> @user.Email</p>
+                <p><span>Phone:</span> @user.Phone</p>
+            </div>
+            <div id="user_auctions_div">
+                @if(auctions == null || auctions?.Count == 0)
+                {
+                    <div id="no_auctions">
+                        <p>User doesn't have any auctions yet.</p>
+                        <button onclick="window.location.href='/Auction/Create'">Create New Auction</button>
+                    </div>
+                } 
+                else
+                {
+                    foreach(var auction in auctions)
+                    {
+                        <div class="auction_card">
+                            <img src="@auction.PhotoPath" />
+                            <div class="auction_info">
+                                <h3>@auction.Name</h3>
+                                <p>current joined users: @auction.JoinedUsers.Count</p>
+                                <p>Auction Deadline: @auction.To</p>
+                                <p>Last Bid: 15.00$</p>
+                                <button>Join Now</button>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const navItems = document.querySelectorAll(".nav_item");
+
+    navItems.forEach((item) => {
+        item.addEventListener("click", function() {
+            navItems.forEach(nav => nav.classList.remove('active_item'));
+
+            if (this.id == 'user_info_item') {
+                document.getElementById('user_info_div').style.display = 'grid'
+            } else {
+                document.getElementById('user_info_div').style.display = 'none';
+            }
+
+            if (this.id == 'user_auctions_item') {
+                document.getElementById('user_auctions_div').style.display = 'grid'
+            } else {
+                document.getElementById('user_auctions_div').style.display = 'none';
+            }
+
+
+
+            this.classList.add('active_item');
+        });
+    });
+</script>

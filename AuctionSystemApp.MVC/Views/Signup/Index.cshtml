@@ -1,0 +1,29 @@
+﻿
+<div>
+    <h1>Signup</h1>
+    <form asp-controller="Signup" asp-action="CreateUser" method="post" enctype="multipart/form-data">
+
+        <div class="signup_input">
+            <input type="text" name="Fname" placeholder="Enter Your First Name"/>
+        </div>
+
+        <div class="signup_input">
+            <input type="text" name="Lname" placeholder="Enter Your Last Name" />
+        </div>
+
+        <div class="signup_input">
+            <input type="text" name="Email" placeholder="Enter Your Email" />
+        </div>
+
+        <div class="signup_input">
+            <input type="text" name="Phone" placeholder="Enter Your Phone Number" />
+        </div>
+
+        <div class="signup_input">
+            <input type="file" name="UserPhoto"/>
+        </div>
+
+        <button type="submit">Signup Now!</button>
+    </form>
+    <p>Already has an account? <a asp-controller="Login" asp-action="Index">Login</a></p>
+</div>

@@ -1,0 +1,65 @@
+﻿
+<div class="auction_creation_page">
+    <div class="heading">
+        <h2>Auction Creation Page</h2>
+        <img src="~/icons/auction_red.svg" width="45" height="45" />
+    </div>
+    <div class="auction_creation_div">
+        <div class="form_div">
+            <h2>Create Auction</h2>
+            <form asp-controller="Auction" asp-action="CreateAuction" enctype="multipart/form-data" method="post">
+                <div class="auction_icon">
+                    <img id="auction_photo" onclick="inputClick()" src="~/icons/auction_icon.svg" width="60" height="60" />
+                    <input name="AuctionPhoto" onchange="capturePhoto()" id="file_input" type="file" style="display: none" />
+                </div>
+                <div class="input_div">
+                    <img src="~/icons/info.svg" width="35" height="35" />
+                    <input name="Name" type="text" placeholder="Enter Auction Name" autocomplete="off" />
+                </div>
+                <div class="input_div">
+                    <img src="~/icons/description.svg" width="35" height="35" />
+                    <input name="Description" type="text" placeholder="Enter Auction Description" autocomplete="off" />
+                </div>
+                <div class="time_window_div">
+                    <div>
+                        <label>From</label>
+                        <input name="From" type="datetime-local" />
+                    </div>
+                    <div>
+                        <label>To</label>
+                        <input name="To" type="datetime-local" />
+                    </div>
+                </div>
+                <div class="input_div">
+                    <img src="~/icons/price.svg" width="35" height="35" />
+                    <input name="StartPrice" type="text" placeholder="Enter Start Price" autocomplete="off" />
+                </div>
+                <button type="submit">Create Auction</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    var input = document.getElementById('file_input');
+    function inputClick() {
+        input.click();
+    }
+
+    function capturePhoto() {
+        var auction_photo = document.getElementById('auction_photo');
+        var photo = input.files[0];
+        console.log(photo);
+        if (photo) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                auction_photo.src = e.target.result;
+                auction_photo.style = `width: 100%; height: 100%; border-radius: 50%; object-fit: cover;`;
+            }
+            reader.readAsDataURL(photo);
+        }
+    }
+    
+    
+</script>

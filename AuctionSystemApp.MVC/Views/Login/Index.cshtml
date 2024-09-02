@@ -1,0 +1,83 @@
+﻿
+<div id="login_parent">
+    <div class="login_form">
+        <h1>Login</h1>
+        <div class="email_input">
+            <input id="email" type="email" placeholder="Enter your email" autocomplete="off" />
+            <button onclick="sendOTP()">Send OTP</button>
+        </div>
+        <p>Doesn't have an account? <span onclick="window.location.href='/signup'">Signup</span></p>
+    </div>
+</div>
+
+
+<script>
+    async function sendOTP() {
+        var email = document.getElementById("email").value;
+        var formBody = new FormData();
+        formBody.append("email", email);
+
+       await fetch("/Login/SendUserOTP", {
+            method: "POST",
+            headers: {
+                'Content-Type': "application/x-www-form-urlencoded"
+            },
+            body: new URLSearchParams(formBody)
+        })
+
+        const otpMessage = document.createElement('p');
+        otpMessage.className = 'otp_sent';
+        otpMessage.textContent = 'OTP sent to the given email';
+
+        document.getElementsByClassName("login_form")[0].appendChild(otpMessage);
+        setTimeout(() => {
+            addModel();
+        }, 1000);
+    }
+
+
+    function closeModal() {
+        document.getElementsByClassName('otp_modal')[0].style.display = "none";
+    }
+
+    function addModel() {
+        const modal = document.createElement('div');
+        modal.className = "otp_modal";
+        modal.innerHTML = `
+            <span onclick="closeModal()"><img src="/icons/close.svg" width="30" height="30"/></span>
+                <p>Check your email inpox for OTP</p>
+                <div>
+                    <input id="otp" type="text" placeholder="Enter OTP" autocomplete="off"/>
+                    <button onclick="verifyOTP()">Verify OTP</button>
+                </div>
+        `
+        document.getElementById("login_parent").appendChild(modal);
+    }
+
+    async function verifyOTP() {
+        var otp = document.getElementById('otp').value;
+        var email = document.getElementById('email').value;
+
+        var formData = new FormData();
+        formData.append("email", email);
+        formData.append("otp", otp);
+
+        await fetch("/Login/VerifyOtp", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams(formData)
+        })
+        .then(res => {
+            if (res.ok)
+                window.location.href = "/Home/Index";
+            else
+                throw new Error("otp isn't correct");
+        })
+         .catch(err => {
+             console.log(err);
+         })
+    }
+
+</script>

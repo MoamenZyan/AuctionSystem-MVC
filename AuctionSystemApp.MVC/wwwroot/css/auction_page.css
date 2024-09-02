@@ -1,0 +1,239 @@
+﻿.auction_page_div {
+    position: relative;
+}
+
+
+.auction_info_div {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 20px;
+}
+
+.auction_info_div .left_div img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.auction_info_div .right_div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.auction_info_div .right_div h2 {
+    color: #fe5f60;
+    font-size: 20pt;
+}
+
+.auction_info_div .right_div p {
+    margin-top: 10px;
+}
+
+.auction_info_div .right_div .live {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 20px;
+}
+
+.auction_info_div .right_div .live img {
+    margin-right: 10px;
+}
+
+.auction_info_div .right_div .live span {
+    font-size: 15pt;
+}
+
+.auction_info_div .right_div .button {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fe5f60;
+    width: 20%;
+    box-shadow: 0px 5px 10px 0px #908b8b;
+    outline: none;
+    border: none;
+}
+
+
+.auction_info_div .right_div .button p {
+    margin: 0;
+}
+
+.auction_info_div .right_div .button img {
+    margin-right: 10px;
+}
+
+
+
+#bid_modal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #747171;
+    border-radius: 10px;
+    outline: none;
+    width: 25%;
+    padding: 10px;
+}
+
+#bid_modal input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fe5f60;
+    margin: 20px 0;
+    font-size: 12pt
+}
+
+#bid_modal button {
+    padding: 10px;
+    background-color: #fe5f60;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+#bid_modal .position_relative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#bid_modal .position_relative img {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px #747171;
+    cursor: pointer;
+}
+
+.auction_comments {
+    margin-top: 30px;
+    min-height: 300px;
+}
+
+.comment_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.comment_section .right {
+    width: 60%;
+}
+
+.comment_section .right textarea{
+    margin-left: auto;
+    width: 300px;
+    min-width: 200px;
+    height: 200px;
+    min-height: 200px;
+    resize: none;
+    border: 2px solid #fe5e61;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+.add_comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.add_comment button {
+    width: 20%;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border:  none;
+    cursor: pointer;
+    background-color: #fe5e61;
+    color: white;
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+.comments {
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 300px;
+    background-color: #f3f2f2;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+}
+
+.comments .first {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #c8c8c8;
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+
+.comment_box {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px #c8c8c8;
+}
+
+.comment_box .user_info {
+    margin-top: 0;
+    display: flex;
+    cursor: pointer;
+    width: max-content;
+}
+
+.comment_box .user_info img {
+    border-radius: 50%;
+    border: 3px solid #fe5e61;
+}
+.comment_box .user_info h4 {
+    color:  #fe5e61;
+    margin-left: 10px;
+}
+
+.comment_box p {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.comment_box span {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}

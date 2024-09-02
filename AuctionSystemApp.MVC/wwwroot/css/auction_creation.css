@@ -1,0 +1,104 @@
+﻿
+.auction_creation_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auction_creation_div .auction_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    background-color: #e68889;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.auction_creation_div form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auction_icon:hover {
+    background-color: #fe5f60;
+}
+
+.auction_creation_div .form_div {
+    margin: 50px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form_div h2 {
+    color: #21334a;
+}
+
+
+.input_div {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.input_div input {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fe5f60;
+    margin-left: 10px;
+    outline: none;
+}
+
+.time_window_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.time_window_div div {
+    display: flex;
+    align-items: center;
+}
+.time_window_div div label {
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+
+.time_window_div input {
+    background-color: white;
+    color: #fe5f60;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #fe5f60;
+    outline: none;
+}
+
+.auction_creation_div button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #fe5f60;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 13pt;
+}

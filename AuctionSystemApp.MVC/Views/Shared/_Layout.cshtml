@@ -1,0 +1,116 @@
+﻿@using AuctionSystemApp.Application.DTOs
+
+@{
+    var user = ViewData["user"] as UserDto;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AuctionSystem</title>
+    <link rel="stylesheet" href="~/css/layout.css"/>
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link rel="stylesheet" href="~/css/homepage.css" />
+    <link rel="stylesheet" href="~/css/profile.css" />
+    <link rel="stylesheet" href="~/css/auction_creation.css" />
+    <link rel="stylesheet" href="~/css/auction_page.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: center;" class="header_body">
+                <div onclick="window.location.href='/'" style="display: flex; align-items: center;" class="logo">
+                    <img style="margin-right: 20px" src="~/icons/auction_icon.svg" width="50" height="50"/>
+                    <h1>Auction System</h1>
+                </div>
+                @if (user != null && User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <div onclick="window.location.href='/profile'" style="display: flex; justify-content: center; align-items: center;">
+                        <div id="userInfo">
+                            <h3 id="userName">@user.Fname</h3>
+                            <img id="userPhoto" src="@user.PhotoPath"/>
+                        </div>
+                        <div onclick="Logout()" class="button">
+                            <p>Logout</p>
+                            <img style="margin-left: 5px;" src="~/icons/logout.svg" width="25" height="25" />
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <div onclick="window.location.href='/login'" class="button">
+                            <p>Login</p>
+                            <img style="margin-left: 5px;" src="~/icons/login.svg" width="25" height="25" />
+                        </div>
+                        <div onclick="window.location.href='/signup'" class="button">
+                            <p>Signup</p>
+                            <img style="margin-left: 5px;" src="~/icons/signup.svg" width="25" height="25" />
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </header>
+
+    <div class="main_container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_body">
+                <div style="display: flex; align-items: center; justify-content: center" class="logo">
+                    <img style="margin-right: 15px" src="~/icons/auction_icon.svg" width="40" height="40" />
+                    <h2>Auction System</h2>
+                </div>
+                <div class="footer_links">
+                    <div>
+                        <h3>About Us</h3>
+                        <ul>
+                            <li>Team</li>
+                            <li>Newsletter</li>
+                            <li>Our Story</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Support</h3>
+                        <ul>
+                            <li>Contact</li>
+                            <li>Refund Policy</li>
+                            <li>FAQ's</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Social</h3>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Linkedin</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #fe5e61; text-align: center; height: 30px; display: flex; align-items: center; justify-content: center; color: white;">All copyright preserved 2024</div>
+    </footer>
+
+    <script>
+       async function Logout() {
+            await fetch("/Login/Logout", {
+                method: "Post",
+                body:null
+            });
+           window.location.reload();
+        }
+    </script>
+</body>
+</html>

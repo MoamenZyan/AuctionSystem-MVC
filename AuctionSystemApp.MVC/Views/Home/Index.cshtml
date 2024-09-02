@@ -1,0 +1,29 @@
+﻿@using AuctionSystemApp.Application.DTOs
+@{
+    ViewData["Title"] = "HomePage";
+    var auctions = ViewData["auctions"] as List<AuctionDto>;
+}
+
+<div class="homepage_container">
+    <div class="heading">
+        <h2>Live Auctions</h2>
+        <img src="~/icons/live.svg" width="40" height="40" />
+    </div>
+    <div class="auctions_grid">
+        @{
+            foreach(var auction in auctions)
+            {
+                <div class="auction_card">
+                    <img src="@auction.PhotoPath"/>
+                    <div class="auction_info">
+                        <h3>@auction.Name</h3>
+                        <p>current joined users: @auction.JoinedUsers.Count</p>
+                        <p>Auction Deadline: @auction.To</p>
+                        <p>Last Bid: @(auction.JoinedUsers.Count > 0 ? auction.JoinedUsers[0].Bid : "0.00")$</p>
+                        <button onclick="window.location.href='/Auction?id=@auction.Id'">Join Now</button>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

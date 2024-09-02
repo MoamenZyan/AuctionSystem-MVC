@@ -1,0 +1,113 @@
+﻿.user_info {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 40px;
+}
+
+.user_info .left_div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ff5e60;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 0px #9f9e9e;
+}
+
+.user_info .left_div {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.user_info .left_div h3 {
+    margin-top: 10px;
+    color: #21334a;
+    font-weight: 800;
+}
+
+
+
+.right_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right_div .nav_bar {
+    display: flex;
+}
+
+.right_div .nav_bar .nav_item {
+    margin: 10px 30px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 0px 7px 7px #b5b5b5;
+}
+
+.right_div .nav_bar .nav_item:hover {
+    background-color: #f6f2f2;
+}
+
+.active_item {
+    border-bottom: 3px solid #ff5e60;
+    color: #ff5e60;
+}
+
+#user_info_div {
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+#user_info_div p {
+    background-color: #f6f2f2;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+#user_info_div span {
+    color: #ff5e60;
+}
+
+
+#user_auctions_div {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+#no_auctions {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: gray;
+}
+
+#no_auctions button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: #fe5f60;
+    color: white;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0px 3px 10px 0px #9f9e9e;
+}
+
+
+.profile_container .auction_card img{
+    border-radius: 5px;
+}
