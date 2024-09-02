@@ -27,3 +27,12 @@ The project uses several design patterns to promote code reusability, flexibilit
 - ASP.NET Core v8: The framework used for building the web application.
 - Entity Framework Core: Used for data access and ORM.
 - SQL Server: The database management system for storing auction and user data.
+
+
+
+# Screenshots
+![auctions](https://github.com/user-attachments/assets/fc8f7536-ee52-4185-9d69-b997f3c15cc3)
+![user](https://github.com/user-attachments/assets/c7587659-d781-4446-94be-7e16c33272b0)
+![auction](https://github.com/user-attachments/assets/2edebfdb-8f76-4e63-8929-4454da24d536)
+![notifications](https://github.com/user-attachments/assets/5a190f0f-4156-4ef7-b23b-334da7af4381)
+
